@@ -28,7 +28,8 @@ The goal is find the underlying source signals (images) that might be making up 
 
 Data are in the data frame TVimages in TVimages.RData provided by Dr. Brant Deppa.
 ```{r load the data, include=FALSE}
-load("~/OneDrive - MNSCU/Unsupervised_Learning_DSCI415/Assignmenet4/Assing4/TVimages.rdata")
+load("~/OneDrive - MNSCU/Unsupervised_Learning_DSCI415/Assignmenet4/ICA-Source-Signals-in-TV-Images/TVimages.rdata")
+readRDS("~/OneDrive - MNSCU/Unsupervised_Learning_DSCI415/Assignmenet4/ICA-Source-Signals-in-TV-Images/Reset_Plotting_Parameters.rds")
 ```
 Libraries needed: ica and fastICA.
 ```{r include=FALSE}
