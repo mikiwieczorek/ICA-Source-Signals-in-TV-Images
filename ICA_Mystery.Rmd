@@ -2,7 +2,7 @@
 title: "Independent Component Analysis: Underlying Source Signals in TV Images"
 author: "Mikolaj Wieczorek"
 date: "10/11/2019"
-output:
+output: 
   md_document:
     variant: markdown_github
 ---
