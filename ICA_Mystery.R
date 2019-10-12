@@ -1,7 +1,7 @@
 library(ica)
 library(fastICA)
 #Data
-load("~/OneDrive - MNSCU/Unsupervised_Learning_DSCI415/Assignmenet4/Assing4/TVimages.rdata")
+load("~/file_path/TVimages.rdata")
 
 TV.plot = function(temp,i) {
   image(1:225,1:225,matrix(temp[,i],225,225),col=gray((0:225/225)))
